@@ -1,7 +1,7 @@
 const { MessageEmbed } = require('discord.js')
 
 const Command = require('../_Command')
-const canSendEmbed = require('../../modules/canSendEmbed')
+const { canSendEmbed } = require('../../components/permissions/checker')
 const getPrefix = require('../../modules/getPrefix')
 
 class HelloCommand extends Command {
