@@ -420,13 +420,7 @@
       "gameCancelled": "틱택토 게임을 취소했어요.",
       "game": {
         "title": "틱택토 게임",
-        "description": {
-          "playing": "%1$s님 차례",
-          "win": "%1$s님 승리!",
-          "content": "%1$s :x:\n%2$s :o:",
-          "draw": "무승부!"
-        },
-        "timeOut": "1분 안에 입력하지 않아 %1$s이(가) 승리했어요!",
+        "timeOut": "1분 안에 입력하지 않아 %1$s님이 승리했어요!",
         "win": "%1$s님이 틱택토 게임에서 승리했어요!",
         "draw": "틱택토 게임이 무승부로 끝났어요!"
       },
@@ -544,6 +538,9 @@
       "noPerms": "이 기능을 이용하려면 해당 음성 채널에서 `초대 링크 만들기` 권한이 필요해요.",
       "needToJoinVC": "링크를 만들 음성 채널에 접속하고 명령어를 다시 실행해주세요. (또는 명령어 뒤에 음성 채널 ID를 입력해 주세요)",
       "DESC": "음성 채널에서 activity를 플레이하세요!"
+    },
+    "title": {
+      "description": "commands.title.description"
     }
   },
   "CommandHandler": {
@@ -678,6 +675,17 @@
       "detailedHelpNotice": "더 많은 정보는 온라인 문서에서 볼 수 있어요.\n(`{{{prefix}}}도움말`로 링크를 얻을 수 있어요)",
       "optional": "(선택)",
       "usage": "사용법:"
+    }
+  },
+  "components": {
+    "game": {
+      "tictactoe": {
+        "panel": {
+          "playing": "$1%s의 차례",
+          "win": "%1$s님 승리!",
+          "draw": "무승부!"
+        }
+      }
     }
   }
 }
