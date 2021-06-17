@@ -45,8 +45,8 @@ module.exports = (msg, cmd, query, t, ctx = {}, wrap = false) => {
    */
   // Don't show flags here.
 
-  const { previous: previousArgs } = ctx
-  let { now: argData } = ctx
+  const previousArgs = ctx?.previous
+  let argData = ctx?.now
 
   let summary = ''
   let description = ''
