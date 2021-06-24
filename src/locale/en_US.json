@@ -576,6 +576,12 @@
       "typeMismatch": {
         "multipleArgs": "%1$s` or `%2$s"
       }
+    },
+    "usage": {
+      "footer": "<Required> [Optional]",
+      "detailedHelpNotice": "Go to online docs for more information.\n(Use `{{{prefix}}}help` to get the link)",
+      "optional": "(optional)",
+      "usage": "Usage:"
     }
   },
   "error": {
@@ -674,12 +680,6 @@
         },
         "author": "Written by %1$s"
       }
-    },
-    "commandUsage": {
-      "footer": "<Required> [Optional]",
-      "detailedHelpNotice": "Go to online docs for more information.\n(Use `{{{prefix}}}help` to get the link)",
-      "optional": "(optional)",
-      "usage": "Usage:"
     }
   },
   "components": {

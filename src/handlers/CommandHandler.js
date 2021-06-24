@@ -7,7 +7,7 @@ const argumentRunner = require('../structures/command/arguments/ArgumentRunner')
 const database = require('../database')
 const ClientError = require('../structures/ClientError')
 const ArgumentError = require('../structures/command/arguments/ArgumentError')
-const makeCommandUsage = require('../modules/commandUsage')
+const makeCommandUsage = require('../structures/command/usage')
 
 const logger = require('../modules/logger')('CommandHandler')
 

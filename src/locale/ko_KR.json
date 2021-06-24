@@ -571,6 +571,12 @@
       "typeMismatch": {
         "multipleArgs": "%1$s`(이)나 `%2$s"
       }
+    },
+    "usage": {
+      "footer": "<필수> [선택]",
+      "detailedHelpNotice": "더 많은 정보는 온라인 문서에서 볼 수 있어요.\n(`{{{prefix}}}도움말`로 링크를 얻을 수 있어요)",
+      "optional": "(선택)",
+      "usage": "사용법:"
     }
   },
   "error": {
@@ -669,12 +675,6 @@
         },
         "author": "공지 작성자: %1$s"
       }
-    },
-    "commandUsage": {
-      "footer": "<필수> [선택]",
-      "detailedHelpNotice": "더 많은 정보는 온라인 문서에서 볼 수 있어요.\n(`{{{prefix}}}도움말`로 링크를 얻을 수 있어요)",
-      "optional": "(선택)",
-      "usage": "사용법:"
     }
   },
   "components": {
