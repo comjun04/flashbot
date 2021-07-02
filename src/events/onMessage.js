@@ -1,5 +1,5 @@
 const MsgQuery = require('../structures/MsgQuery')
-const getPrefix = require('../modules/getPrefix')
+const getPrefix = require('../shared/getPrefix')
 const ClientError = require('../structures/ClientError')
 
 const logger = require('../shared/logger')('event:onMessage')
