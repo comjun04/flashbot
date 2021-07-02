@@ -3,7 +3,7 @@ const util = require('util')
 
 const Command = require('../_Command')
 const { canSendEmbed } = require('../../components/permissions/checker')
-const logger = require('../../modules/logger')('cmd:eval')
+const logger = require('../../shared/logger')('cmd:eval')
 
 class EvalCommand extends Command {
   constructor (client) {

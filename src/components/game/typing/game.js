@@ -2,7 +2,7 @@ const { Collection } = require('discord.js')
 const path = require('path')
 const fs = require('fs')
 
-const logger = require('../../../modules/logger')('components:typing')
+const logger = require('../../../shared/logger')('components:typing')
 
 // Data Storage
 const typingData = new Collection()

@@ -2,7 +2,7 @@ const MsgQuery = require('../structures/MsgQuery')
 const getPrefix = require('../modules/getPrefix')
 const ClientError = require('../structures/ClientError')
 
-const logger = require('../modules/logger')('event:onMessage')
+const logger = require('../shared/logger')('event:onMessage')
 
 async function onMessage (client, msg) {
   if (msg.author.bot || !msg.content) return

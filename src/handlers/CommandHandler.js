@@ -9,7 +9,7 @@ const ClientError = require('../structures/ClientError')
 const ArgumentError = require('../structures/command/arguments/ArgumentError')
 const makeCommandUsage = require('../structures/command/usage')
 
-const logger = require('../modules/logger')('CommandHandler')
+const logger = require('../shared/logger')('CommandHandler')
 
 /**
  * Stores commands and execute on command message.

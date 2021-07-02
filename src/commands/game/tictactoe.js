@@ -6,7 +6,7 @@ const { modifyPanel } = require('../../components/game/tictactoe/panel')
 const ClientError = require('../../structures/ClientError')
 const { canSendEmbed } = require('../../components/permissions/checker')
 
-const _logger = require('../../modules/logger')('cmd:tictactoe')
+const _logger = require('../../shared/logger')('cmd:tictactoe')
 
 // for test
 const PLAY_MYSELF = true
