@@ -72,17 +72,17 @@ class EvalCommand extends Command {
       const _str = str.length > 1000 ? str.slice(0, 1000) + moreText : str
       const embed = new MessageEmbed()
         .setTitle(t('commands.eval.title'))
-        .addField(t('commands.eval.input'), '```\n' + _str + '\n```')
-        .addField(t('commands.eval.output'), '```\n' + result + '\n```')
+        .addField(t('commands.eval.input'), '```js\n' + _str + '\n```')
+        .addField(t('commands.eval.output'), '```js\n' + result + '\n```')
       embed.setColor(error.occured ? 'RED' : 'GREEN')
 
       return m.edit({ content: '', embed })
     } else {
       const _str = str.length > 150 ? str.slice(0, 150) + moreText : str
       const _result = result.length > 1750 ? result.slice(0, 1750) + moreText : result
-      const print = t('commands.eval.input') + '```\n' +
+      const print = t('commands.eval.input') + '```js\n' +
         _str + '\n```\n' +
-        t('commands.eval.output') + '```\n' +
+        t('commands.eval.output') + '```js\n' +
         _result + '\n```'
 
       return m.edit(print)
