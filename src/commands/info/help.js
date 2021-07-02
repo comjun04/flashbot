@@ -2,7 +2,7 @@ const { MessageEmbed } = require('discord.js')
 
 // const Paginator = require('../../structures/Paginator')
 const Command = require('../_Command')
-const { joinBacktick } = require('../../modules/textFormat')
+const { joinBacktick } = require('../../shared/textFormat')
 const makeCommandUsage = require('../../structures/command/usage')
 
 const LINKS = {

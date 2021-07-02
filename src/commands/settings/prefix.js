@@ -1,5 +1,5 @@
 const Command = require('../_Command')
-const textFormat = require('../../modules/textFormat')
+const textFormat = require('../../shared/textFormat')
 const database = require('../../database')
 const getPrefix = require('../../shared/getPrefix')
 
